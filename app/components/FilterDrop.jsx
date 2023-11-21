@@ -18,7 +18,7 @@ const  FilterDrop = () => {
   const router= useRouter();
   return (
     <Select onValueChange={(value) => router.replace(value)} >
-  <SelectTrigger className="w-[100px] text-sm">
+  <SelectTrigger className="w-[100px] text-sm text-black">
     <SelectValue className='text-black' placeholder="SORTBY" />
   </SelectTrigger>
   <SelectContent>
