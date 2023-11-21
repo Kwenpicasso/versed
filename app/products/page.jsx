@@ -41,7 +41,7 @@ const page = async ({searchParams}) => {
  
   
   return (
-    <div className='w-full h-full mt-6 max lg:mt-[15%]'>
+    <div className='w-full h-full mt-6 max lg:mt-[19%]'>
       <h1 className='uppercase text-3xl font-semibold text-center mb-4 text-black  md:text-2xl'>all skincare</h1>
 
       {/* this shop sections that display the products */}
