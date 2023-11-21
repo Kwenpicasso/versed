@@ -41,8 +41,8 @@ const page = async ({searchParams}) => {
  
   
   return (
-    <div className='w-full h-full mt-6 max'>
-      <h1 className='uppercase text-3xl font-semibold text-center mb-4 md:text-2xl'>all skincare</h1>
+    <div className='w-full h-full mt-6 max lg:mt-[15%]'>
+      <h1 className='uppercase text-3xl font-semibold text-center mb-4 text-black  md:text-2xl'>all skincare</h1>
 
       {/* this shop sections that display the products */}
       <div className='w-full h-full flex gap-3 '>
@@ -71,15 +71,15 @@ const page = async ({searchParams}) => {
          
          <div className='w-full flex flex-col justify-start items-start mt-5'>
          
-             <h1 className='uppercase font-light'>
+             <h1 className='uppercase font-light text-black'>
                {item.name}
              </h1>
            {/* price and emojis */}
            <div className='w-full flex justify-between items-center mt-3'>
-             <h2 className='font-semibold'>${item.price}</h2>
+             <h2 className='font-semibold text-black'>${item.price}</h2>
              <div className='flex'>
-             <Smile size={20}/>
-             <HourglassIcon size={20}/>
+             <Smile size={20} className='text-black'/>
+             <HourglassIcon size={20} className='text-black'/>
              </div>
            </div>
            <div className="rating w-[120px]">

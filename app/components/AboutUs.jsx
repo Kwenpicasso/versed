@@ -41,7 +41,7 @@ const AboutUs = async () => {
             
              <div className="carousel-item flex flex-col capitalize font-semibold">
              <Image src={item.image} alt="Burger" width={300} height={300} />
-             {item.about}
+               <h1 className='text-black'>{item.about}</h1>
             
            </div> 
            

@@ -71,9 +71,9 @@ const ProductPage = async ({params}) => {
 
        <div className='w-full flex h-[50px] mt-4'>
        <div className='w-[35%] bg-white text-sm border border-black flex justify-center items-center gap-5 lg:gap-3'>
-        <Minus size={20} />
-        <h1>1</h1>
-        <Plus size={20} />
+        <Minus size={20} className='text-black' />
+        <h1 className='text-black'>1</h1>
+        <Plus size={20} className='text-black' />
        
        </div>
         {/* add to bag */}

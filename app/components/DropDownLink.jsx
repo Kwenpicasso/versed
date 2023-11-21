@@ -56,7 +56,7 @@ const DropDownLink = () => {
     {filters.map((section,i) => (
           <Accordion key={i} type="single" collapsible>
           <AccordionItem value="item-1">
-            <AccordionTrigger className='font-semibold uppercase text-sm'>{section.name}</AccordionTrigger>
+            <AccordionTrigger className='font-semibold uppercase text-sm text-black'>{section.name}</AccordionTrigger>
             <AccordionContent className='' >
            {section.options.map((option) => (
              <div key={option.value} className='flex flex-col  gap-3 capitalize'>
@@ -77,7 +77,7 @@ const DropDownLink = () => {
                
                <label
                  htmlFor="terms"
-                 className="text-xs font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                 className="text-xs text-black font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                >
                  {option.label}
                </label>

@@ -13,31 +13,31 @@ const Footer = () => {
 
     <div className='flex w-full justify-around'>
     <div className='text-xs capitalize flex flex-col gap-2'>
-        <h1 className='text-sm mb-2 font-semibold'>about us</h1>
-        <h2>Recycling</h2>
-        <h2>Sustainability</h2>
-        <h2>ingredients</h2>
-        <h2>careers</h2>
+        <h1 className='text-sm mb-2 font-semibold text-black'>about us</h1>
+        <h2 className='text-black'>Recycling</h2>
+        <h2 className='text-black'>Sustainability</h2>
+        <h2 className='text-black'>ingredients</h2>
+        <h2 className='text-black'>careers</h2>
       </div>
       <div className='text-xs capitalize flex flex-col gap-2'>
-        <h1 className='text-sm mb-2 font-semibold'>shop</h1>
-        <h2>new arrivals</h2>
-        <h2>bestsellers</h2>
-        <h2>on sale</h2>
-        <h2>gift card</h2>
+        <h1 className='text-sm mb-2 font-semibold text-black'>shop</h1>
+        <h2 className='text-black'>new arrivals</h2>
+        <h2 className='text-black'>bestsellers</h2>
+        <h2 className='text-black'>on sale</h2>
+        <h2 className='text-black'>gift card</h2>
       </div>
       <div className='text-xs capitalize flex flex-col gap-2'>
-        <h1 className='text-sm mb-2 font-semibold'>help</h1>
-        <h2>shipping</h2>
-        <h2>payment</h2>
-        <h2>Return</h2>
-        <h2>contact</h2>
+        <h1 className='text-sm mb-2 font-semibold text-black'>help</h1>
+        <h2 className='text-black'>shipping</h2>
+        <h2 className='text-black'>payment</h2>
+        <h2 className='text-black'>Return</h2>
+        <h2 className='text-black'>contact</h2>
       </div>
       <div className='text-xs capitalize flex flex-col gap-2 lg:hidden'>
-        <h1 className='text-sm mb-2 font-semibold'>find us</h1>
-        <h2>instagram</h2>
-        <h2>facebook</h2>
-        <h2>twitter</h2>
+        <h1 className='text-sm mb-2 font-semibold text-black'>find us</h1>
+        <h2 className='text-black'>instagram</h2>
+        <h2 className='text-black'>facebook</h2>
+        <h2 className='text-black'>twitter</h2>
         
       </div>
     </div>
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
       <div className='w-full h-[1px] bg-gray-400 lg:mt-2'></div>
       <div className='flex justify-center items-center'>
-      <h1 className='uppercase text-sm sm:text-xs'>&copy;offspring beauty co.2023</h1>
+      <h1 className='uppercase text-sm sm:text-xs text-black'>&copy;offspring beauty co.2023</h1>
       </div>
     </div>
   )

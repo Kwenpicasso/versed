@@ -15,17 +15,17 @@ const Newletter = () => {
       {/* newletter form */}
       <div className='w-[40%] lg:w-full lg:mt-[5%]'>
        <div className='w-[80%] h-full flex flex-col gap-3 justify-center lg:w-full lg:items-center'>
-       <h1 className='uppercase text-3xl font-semibold w-full text-left lg:text-center sm:text-2xl'>versed newsletter</h1>
-       <p className='capitalize text-xs w-[300px] lg:text-center sm:w-[80%]'>get news, the latest arrivals and great promotions every week.</p>
+       <h1 className='uppercase text-3xl font-semibold w-full text-left lg:text-center sm:text-2xl text-black'>versed newsletter</h1>
+       <p className='capitalize text-xs w-[300px] lg:text-center sm:w-[80%] text-black'>get news, the latest arrivals and great promotions every week.</p>
 
        <form class="mt-6 lg:w-[90%]" >
             <div class="relative">
               <input id="email" name="email" type="text" className="newsinput peer" />
-              <label for="email" class="newslabel text-xs">Enter your name</label>
+              <label for="email" class="newslabel text-xs text-black">Enter your name</label>
             </div>
             <div class="relative mt-10">
               <input id="email" name="email" type="text" className="peer newsinput" />
-              <label for="email" class="newslabel text-xs">Enter your name</label>
+              <label for="email" class="newslabel text-xs text-black">Enter your name</label>
             </div>
            
           </form>
