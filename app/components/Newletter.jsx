@@ -32,7 +32,7 @@ const Newletter = () => {
 
           <div className='w-full flex justify-end lg:mr-5'>
             <div className=''>
-            <Button title='subscribe' border='border-black' cream='lg:bg-yellow-50' trans='bg-transparent' />
+            <Button title='subscribe' border='border-black' cream='lg:bg-yellow-50' trans='bg-transparent' move='' />
             </div>
           </div>
        </div>

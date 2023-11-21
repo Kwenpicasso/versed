@@ -14,7 +14,7 @@ const Build = () => {
       </div>
        {/* button on mobile */}
        <div className='absolute right-[23%] bottom-[10%] hidden lg:block'>
-             <Button title='shop now' gg='hidden'/>
+             <Button title='shop now' gg='hidden' move='products'/>
              </div>
       </div>
       {/* content */}
@@ -24,7 +24,7 @@ const Build = () => {
        <div className='lg:hidden w-full flex justify-end items-end'>
         
         <div>
-        <Button title='To skin decoder quiz' border='border-black'/>
+        <Button title='To skin decoder quiz' border='border-black' move='products'/>
         </div>
        </div>
       </div>
@@ -39,7 +39,7 @@ const Build = () => {
       </div>
        {/* button on mobile */}
        <div className='absolute left-[23%] bottom-[10%] hidden lg:block'>
-             <Button title='shop now' gg='hidden'/>
+             <Button title='shop now' gg='hidden' move='products'/>
              </div>
       </div>
       {/* content */}
@@ -49,7 +49,7 @@ const Build = () => {
        <div className='lg:hidden w-full justify-end items-center flex'>
         
         <div>
-        <Button title='To skin decoder quiz' border='border-black'/>
+        <Button title='To skin decoder quiz' border='border-black' move='products'/>
         </div>
        </div>
       </div>
