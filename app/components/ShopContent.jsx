@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 
 
 const ShopContent = () => {
@@ -17,7 +18,7 @@ const ShopContent = () => {
         
       ];
   return (
-    <div className='w-full h-[40vh] flex gap-8 items-center justify-center py-2 px-4 bg-white z-[1000] fixed'>
+    <div className='w-full h-[40vh] flex gap-8 items-center justify-center py-2 px-4 bg-white z-[1000] fixed left-0'>
      {Content.map((item) => (
          <div className=' w-[200px] flex flex-col capitalize justify-start items-start text-sm gap-3 p-4 h-full' key={item.id}>
          <h1 className='uppercase font-semibold text-xs'>{item.label}</h1>
@@ -33,7 +34,7 @@ const ShopContent = () => {
    <div className='relative'>
         <Image src='/blue.webp' width={350} height={300} alt='yellow cream' className=''/>
         <div className='absolute bottom-4 left-4'>
-         <Button><h1 className='animate-pulse text-xs'>SHOP NOW</h1></Button>
+         <Button><Link href='/products'>SHOP ALL</Link></Button>
         </div>
       </div>
     </div>

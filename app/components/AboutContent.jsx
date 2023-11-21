@@ -4,7 +4,7 @@ import React from 'react'
 
 const AboutContent = () => {
   return (
-    <div className='w-full h-[40vh] flex gap-8 items-center justify-around py-2 px-4 bg-white z-[1000] fixed'>
+    <div className='w-full h-[40vh] flex gap-8 items-center justify-around py-2 px-4 bg-white left-0 z-[1000] fixed'>
      <div className='flex gap-3 justify-start items-start w-[60%]' >
      <div className='relative'>
         <Image src='/kkk.webp' width={350} height={300} alt='yellow cream'/>

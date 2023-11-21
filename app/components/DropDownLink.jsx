@@ -64,7 +64,7 @@ const DropDownLink = () => {
            
              <div className="flex mb-2 w-full justify-start items-center gap-3 ">
               
-               <Checkbox id="terms" 
+               <Checkbox id={option.id} 
                 checked={searchValues.some(([key, value]) => key === section.id && value === option.value)}
                onClick={(e) => {
                 e.preventDefault();
@@ -76,7 +76,7 @@ const DropDownLink = () => {
                 />
                
                <label
-                 htmlFor="terms"
+                 htmlFor={option.id}
                  className="text-xs text-black font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                >
                  {option.label}
